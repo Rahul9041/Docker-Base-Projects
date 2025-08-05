@@ -1,4 +1,4 @@
-# Docker-Base-Projects
+# Docker-Base-Project
 Create Dockerfile and build Docker container application image for the application built in the previous Jenkins module
 Create a Dockerfile
 Build a Docker Image
