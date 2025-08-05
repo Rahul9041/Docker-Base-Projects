@@ -1,0 +1,22 @@
+
+Create Dockerfile and build Docker container application image for the application built in the previous Jenkins module
+Create a Dockerfile
+Build a Docker Image
+Run the Docker Container
+Test your application in browser
+
+You built a Java Web Application using Jenkins + Maven
+Jenkins generated a .war file (example: myapp.war)
+Now you will deploy this WAR file using Docker and Tomcat
+
+steps
+1.Open Ec2 with t2.medium 
+2.Check installation with versions
+3.Maven , docker.io , jenkins , tomcat with version 
+4.clone your repo url https://github.com/Rahul9041/java-webapp-project.git
+5.Go to java-web-project folder then check list ls
+6.download mvn package
+7.target folder will be created
+8.create dockerfile  
+9.build with docker build -t yourappname path
+10.check it will be created docker images
