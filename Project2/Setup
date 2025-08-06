@@ -1,0 +1,11 @@
+Create the Container using the same
+Application Image and run the application in a
+Web Browser using container port mapping
+
+1.use the last images which we created in project 1
+2.Use docker command for create container by our new img with ports 
+3.docker run -itd -p host:container imagename
+docker run	create and start container 
+-itd	run container in backgroud (interactive + terminal)
+-p 8289:8080	connect EC2'port with container'port(tomcat 8080) ko jodo
+myapp	imagename of our app
